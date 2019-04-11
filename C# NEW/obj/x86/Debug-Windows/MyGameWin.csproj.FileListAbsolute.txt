@@ -52,3 +52,7 @@ D:\repos\dev-proj-01\battle-ship\C#\bin\Debug\MyGame.exe
 D:\repos\dev-proj-01\battle-ship\C#\bin\Debug\MyGame.pdb
 D:\repos\dev-proj-01\battle-ship\C#\bin\Debug\SwinGame.dll
 D:\repos\dev-proj-01\battle-ship\C#\obj\x86\Debug-Windows\MyGameWin.csprojResolveAssemblyReference.cache
+D:\repos\dev-proj-01\battle-ship\C# NEW\bin\Debug\MyGame.exe.config
+D:\repos\dev-proj-01\battle-ship\C# NEW\obj\x86\Debug-Windows\MyGame.exe
+D:\repos\dev-proj-01\battle-ship\C# NEW\obj\x86\Debug-Windows\MyGame.pdb
+D:\repos\dev-proj-01\battle-ship\C# NEW\obj\x86\Debug-Windows\MyGameWin.csprojResolveAssemblyReference.cache
