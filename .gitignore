@@ -1,4 +1,5 @@
 bin
+Debug
 tmp
 *.userprefs
 out.log
