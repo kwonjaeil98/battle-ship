@@ -55,6 +55,7 @@ C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.csproj.
 C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.csproj.CopyComplete
 C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.exe
 C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.pdb
+<<<<<<< HEAD
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\bin\Debug\Resources\animations\startup.txt
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\bin\Debug\Resources\bundles\FileDialog.txt
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\bin\Debug\Resources\bundles\splash.txt
@@ -83,3 +84,5 @@ C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.cs
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.csproj.CopyComplete
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.exe
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.pdb
+=======
+>>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024

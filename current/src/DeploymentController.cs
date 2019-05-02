@@ -102,6 +102,11 @@ static class DeploymentController
 		int col = 0;
 		row = Convert.ToInt32(Math.Floor(((mouse.Y)-UtilityFunctions.FIELD_TOP)/ (UtilityFunctions.CELL_HEIGHT + UtilityFunctions.CELL_GAP)));
         col = Convert.ToInt32(Math.Floor((mouse.X - UtilityFunctions.FIELD_LEFT) / (UtilityFunctions.CELL_WIDTH + UtilityFunctions.CELL_GAP)));
+<<<<<<< HEAD
+=======
+        Console.WriteLine(mouse.Y - UtilityFunctions.FIELD_TOP);
+        Console.WriteLine(row + " " + col);
+>>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
 
         if (row >= 0 & row < GameController.HumanPlayer.PlayerGrid.Height) {
 			if (col >= 0 & col < GameController.HumanPlayer.PlayerGrid.Width) {
