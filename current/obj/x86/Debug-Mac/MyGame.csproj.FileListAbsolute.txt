@@ -55,7 +55,6 @@ C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.csproj.
 C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.csproj.CopyComplete
 C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.exe
 C:\Users\PC\Downloads\Battle Ships\Battle Ships\obj\x86\Debug-Mac\MyGame.pdb
-<<<<<<< HEAD
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\bin\Debug\Resources\animations\startup.txt
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\bin\Debug\Resources\bundles\FileDialog.txt
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\bin\Debug\Resources\bundles\splash.txt
@@ -84,5 +83,87 @@ C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.cs
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.csproj.CopyComplete
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.exe
 C:\Code3\Battle Ships\battle-ship\Current BattleShip\obj\x86\Debug-Mac\MyGame.pdb
-=======
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
+C:\Code3\Battle Ships\current\bin\Debug\Resources\animations\startup.txt
+C:\Code3\Battle Ships\current\bin\Debug\Resources\bundles\FileDialog.txt
+C:\Code3\Battle Ships\current\bin\Debug\Resources\bundles\splash.txt
+C:\Code3\Battle Ships\current\bin\Debug\Resources\fonts\arial.ttf
+C:\Code3\Battle Ships\current\bin\Debug\Resources\fonts\cour.ttf
+C:\Code3\Battle Ships\current\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\fdFile.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\fdFolder.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\FileDialog_Active.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\FileDialog_Background.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\FileDialog_Inactive.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\FileDialog_Scroll.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\Swinburne.jpg
+C:\Code3\Battle Ships\current\bin\Debug\Resources\images\SwinGameAni.png
+C:\Code3\Battle Ships\current\bin\Debug\Resources\panels\FileDialog.txt
+C:\Code3\Battle Ships\current\bin\Debug\Resources\sounds\error.wav
+C:\Code3\Battle Ships\current\bin\Debug\Resources\sounds\SwinGameStart.wav
+C:\Code3\Battle Ships\current\bin\Debug\Resources\SwinGame.icns
+C:\Code3\Battle Ships\current\bin\Debug\Resources\SwinGame.ico
+C:\Code3\Battle Ships\current\bin\Debug\MyGame.exe
+C:\Code3\Battle Ships\current\bin\Debug\MyGame.pdb
+C:\Code3\Battle Ships\current\bin\Debug\SwinGame.dll
+C:\Code3\Battle Ships\current\obj\x86\Debug-Mac\MyGame.csprojAssemblyReference.cache
+C:\Code3\Battle Ships\current\obj\x86\Debug-Mac\MyGame.csproj.CoreCompileInputs.cache
+C:\Code3\Battle Ships\current\obj\x86\Debug-Mac\MyGame.csproj.CopyComplete
+C:\Code3\Battle Ships\current\obj\x86\Debug-Mac\MyGame.exe
+C:\Code3\Battle Ships\current\obj\x86\Debug-Mac\MyGame.pdb
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\animations\startup.txt
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\bundles\FileDialog.txt
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\bundles\splash.txt
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\fonts\arial.ttf
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\fonts\cour.ttf
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\fdFile.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\fdFolder.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\FileDialog_Active.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\FileDialog_Background.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\FileDialog_Inactive.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\FileDialog_Scroll.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\Swinburne.jpg
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\images\SwinGameAni.png
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\panels\FileDialog.txt
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\sounds\error.wav
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\sounds\SwinGameStart.wav
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\SwinGame.icns
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\Resources\SwinGame.ico
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\MyGame.exe
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\MyGame.pdb
+C:\Code3\Battle Ships\Validation\battle-ship\current\bin\Debug\SwinGame.dll
+C:\Code3\Battle Ships\Validation\battle-ship\current\obj\x86\Debug-Mac\MyGame.csprojAssemblyReference.cache
+C:\Code3\Battle Ships\Validation\battle-ship\current\obj\x86\Debug-Mac\MyGame.csproj.CoreCompileInputs.cache
+C:\Code3\Battle Ships\Validation\battle-ship\current\obj\x86\Debug-Mac\MyGame.csproj.CopyComplete
+C:\Code3\Battle Ships\Validation\battle-ship\current\obj\x86\Debug-Mac\MyGame.exe
+C:\Code3\Battle Ships\Validation\battle-ship\current\obj\x86\Debug-Mac\MyGame.pdb
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\animations\startup.txt
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\bundles\FileDialog.txt
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\bundles\splash.txt
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\fonts\arial.ttf
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\fonts\cour.ttf
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\fdFile.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\fdFolder.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\FileDialog_Active.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\FileDialog_Background.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\FileDialog_Inactive.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\FileDialog_Scroll.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\Swinburne.jpg
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\images\SwinGameAni.png
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\panels\FileDialog.txt
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\sounds\error.wav
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\sounds\SwinGameStart.wav
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\SwinGame.icns
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\Resources\SwinGame.ico
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\MyGame.exe
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\MyGame.pdb
+C:\Code3\Battle Ships\battle-ship\current\bin\Debug\SwinGame.dll
+C:\Code3\Battle Ships\battle-ship\current\obj\x86\Debug-Mac\MyGame.csprojAssemblyReference.cache
+C:\Code3\Battle Ships\battle-ship\current\obj\x86\Debug-Mac\MyGame.csproj.CoreCompileInputs.cache
+C:\Code3\Battle Ships\battle-ship\current\obj\x86\Debug-Mac\MyGame.csproj.CopyComplete
+C:\Code3\Battle Ships\battle-ship\current\obj\x86\Debug-Mac\MyGame.exe
+C:\Code3\Battle Ships\battle-ship\current\obj\x86\Debug-Mac\MyGame.pdb

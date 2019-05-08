@@ -118,11 +118,7 @@ public abstract class AIPlayer : Player
 			result = _game.Shoot(row, column);
 			// Take shot
 			ProcessShot(row, column, result);
-<<<<<<< HEAD
 		} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.Hit && result.Value != ResultOfAttack.Destroyed && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
-=======
-		} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
 
 		return result;
 	}

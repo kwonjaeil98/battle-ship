@@ -16,9 +16,9 @@ using System.Diagnostics;
 public class SeaGrid : ISeaGrid
 {
 
-	private const int _WIDTH = 10;
+	private const int _Width = 10;
 
-	private const int _HEIGHT = 10;
+	private const int _Height = 10;
 	private Tile[,] _GameTiles;
 	private Dictionary<ShipName, Ship> _Ships;
 
@@ -34,7 +34,7 @@ public class SeaGrid : ISeaGrid
 	// <value>The width of the sea grid.</value>
 	// <returns>The width of the sea grid.</returns>
 	public int Width {
-		get { return _WIDTH; }
+		get { return _Width; }
 	}
 
 	// <summary>
@@ -43,7 +43,7 @@ public class SeaGrid : ISeaGrid
 	// <value>The height of the sea grid</value>
 	// <returns>The height of the sea grid</returns>
 	public int Height {
-		get { return _HEIGHT; }
+		get { return _Height; }
 	}
 
 	// <summary>

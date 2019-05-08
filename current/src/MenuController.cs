@@ -44,11 +44,11 @@ static class MenuController
 	private const int MENU_TOP = 575;
 	private const int MENU_LEFT = 30;
 	private const int MENU_GAP = 0;
-	private const int BUTTON_WIDTH = 75;
-	private const int BUTTON_HEIGHT = 15;
-	private const int BUTTON_SEP = BUTTON_WIDTH + MENU_GAP;
+	private const int BUTTON_Width = 75;
+	private const int BUTTON_Height = 15;
+	private const int BUTTON_SEP = BUTTON_Width + MENU_GAP;
 
-	private const int TEXT_OFFSET = 0;
+	private const int TextOffset = 0;
 	private const int MAIN_MENU = 0;
 	private const int GAME_MENU = 1;
 
@@ -196,16 +196,16 @@ static class MenuController
 	{
 		int btnTop = 0;
 
-		btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;
+		btnTop = MENU_TOP - (MENU_GAP + BUTTON_Height) * level;
 		int i = 0;
 		for (i = 0; i <= _menuStructure[menu].Length - 1; i++) {
 			int btnLeft = 0;
 			btnLeft = MENU_LEFT + BUTTON_SEP * (i + xOffset);
-			//SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
-			SwinGame.DrawTextLines(_menuStructure[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, BUTTON_HEIGHT);
+			//SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_Width, BUTTON_Height)
+			SwinGame.DrawTextLines(_menuStructure[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, btnLeft + TextOffset, btnTop + TextOffset, BUTTON_Width, BUTTON_Height);
 
 			if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset)) {
-				SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
+				SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_Width, BUTTON_Height);
 			}
 		}
 	}
@@ -229,10 +229,10 @@ static class MenuController
 	// <returns>true if the mouse is over the button</returns>
 	private static bool IsMouseOverMenu(int button, int level, int xOffset)
 	{
-		int btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;
+		int btnTop = MENU_TOP - (MENU_GAP + BUTTON_Height) * level;
 		int btnLeft = MENU_LEFT + BUTTON_SEP * (button + xOffset);
 
-		return UtilityFunctions.IsMouseInRectangle(btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
+		return UtilityFunctions.IsMouseInRectangle(btnLeft, btnTop, BUTTON_Width, BUTTON_Height);
 	}
 
 	// <summary>

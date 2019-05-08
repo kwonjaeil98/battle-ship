@@ -82,14 +82,10 @@ public static class GameController
 			case AIOption.Hard:
 				_ai = new AIHardPlayer(_theGame);
 				break;
-<<<<<<< HEAD
             case AIOption.Easy:
                 _ai = new AIEasyPlayer(_theGame);
                 break;
             default:
-=======
-			default:
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
 				_ai = new AIHardPlayer(_theGame);
 				break;
 		}
@@ -257,19 +253,13 @@ public static class GameController
 	private static void CheckAttackResult(AttackResult result)
 	{
 		switch (result.Value) {
-<<<<<<< HEAD
             case ResultOfAttack.Hit:
             case ResultOfAttack.Destroyed:
-=======
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
             case ResultOfAttack.Miss:
 				if (object.ReferenceEquals(_theGame.Player, ComputerPlayer))
 					AIAttack();
 				break;
-<<<<<<< HEAD
 
-=======
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
 			case ResultOfAttack.GameOver:
 				SwitchState(GameState.EndingGame);
 				break;
@@ -391,10 +381,6 @@ public static class GameController
 	public static void SetDifficulty(AIOption setting)
 	{
 		_aiSetting = setting;
-<<<<<<< HEAD
     }
-=======
-	}
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
 
 }

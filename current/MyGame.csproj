@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
-=======
-<?xml version="1.0" encoding="utf-8"?>
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug-Windows</Configuration>
@@ -71,14 +67,7 @@
     </CustomCommands>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-<<<<<<< HEAD
   <ItemGroup />
-=======
-  <ItemGroup>
-    <Folder Include="src\" />
-    <Folder Include="Resources\" />
-  </ItemGroup>
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
   <ItemGroup>
     <Reference Include="SwinGame">
       <HintPath>lib\SwinGame.dll</HintPath>
@@ -179,10 +168,7 @@
     <Compile Include="src\GameState.cs" />
     <Compile Include="src\HighScoreController.cs" />
     <Compile Include="src\MenuController.cs" />
-<<<<<<< HEAD
     <Compile Include="src\Model\AIEasyPlayer.cs" />
-=======
->>>>>>> ede10b7b8a4b043ec52bd30977cbec6cf774c024
     <Compile Include="src\UtilityFunctions.cs" />
     <Compile Include="src\Model\AIHardPlayer.cs" />
     <Compile Include="src\Model\AIMediumPlayer.cs" />
