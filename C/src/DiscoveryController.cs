@@ -44,7 +44,7 @@ static class DiscoveryController
 		int row = 0;
 		int col = 0;
 		row = Convert.ToInt32(Math.Floor((mouse.Y - UtilityFunctions.FieldTop) / (UtilityFunctions.CellHeight + UtilityFunctions.CellGap)));
-		col = Convert.ToInt32(Math.Floor((mouse.X - UtilityFunctions.FieldTop) / (UtilityFunctions.CellWidth + UtilityFunctions.CellGap)));
+		col = Convert.ToInt32(Math.Floor((mouse.X - UtilityFunctions.FieldLeft) / (UtilityFunctions.CellWidth + UtilityFunctions.CellGap)));
 
 		if (row >= 0 & row < GameController.HumanPlayer.EnemyGrid.Height) {
 			if (col >= 0 & col < GameController.HumanPlayer.EnemyGrid.Width) {
