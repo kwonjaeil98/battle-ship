@@ -180,7 +180,11 @@ static class HighScoreController
 			int x = 0;
 			x = ScoresLeft + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ");
 
-			SwinGame.StartReadingText(Color.White, NameWidth, GameResources.GameFont("Courier"), x, ENTRY_TOP);
+			// Creates area for user to enter their name
+			Rectangle rect = SwinGame.CreateRectangle(x, ENTRY_TOP, 50, 50);
+
+			// Reads text within the rectangles area
+			SwinGame.StartReadingText(Color.White, NameWidth, GameResources.GameFont("Courier"), rect);
 
 			// Read the text from the user
 			while (SwinGame.ReadingText()) {
@@ -193,6 +197,8 @@ static class HighScoreController
 			}
 
 			s.Name = SwinGame.TextReadAsASCII();
+			// Makes all highscore entries captialised
+			s.Name = s.Name.ToUpper();
 
 			if (s.Name.Length < 3) {
 				s.Name = s.Name + new string(Convert.ToChar(" "), 3 - s.Name.Length);
