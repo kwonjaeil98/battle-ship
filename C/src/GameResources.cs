@@ -43,7 +43,12 @@ public static class GameResources
 		NewImage("Explosion", "explosion.png");
 		NewImage("Splash", "splash.png");
 
-	}
+        //Markers
+        NewImage("HitMark", "hitmark.png");
+        NewImage("MissMark", "missmark.png");
+
+
+    }
 
 	private static void LoadSounds()
 	{

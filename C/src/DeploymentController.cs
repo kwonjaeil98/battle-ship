@@ -36,7 +36,7 @@ static class DeploymentController
 	private const int TextOffset = 5;
 	private static Direction _currentDirection = Direction.UpDown;
 
-	private static ShipName _selectedShip = ShipName.Tug;
+	private static ShipName _selectedShip = ShipName.JollyBoat;
 	// <summary>
 	// Handles user input for the Deployment phase of the game.
 	// </summary>
@@ -155,7 +155,7 @@ static class DeploymentController
 
 		if (GameController.HumanPlayer.ReadyToDeploy) {
 			SwinGame.DrawBitmap(GameResources.GameImage("PlayButton"), PlayButtonLeft, TopButtonsTop);
-			// SwinGame.FillRectangle(Color.LightBlue, PlayButtonLeft, PLAY_BUTTON_TOP, PlayButtonWidth, PLAY_BUTTON_Height)
+			// SwinGame.FillRectangle(Color.LightBlue, PlayButtonLeft, PLAY_BUTTON_TOP, PlayButtonWidth, PLAY_ButtonHeight)
 			// SwinGame.DrawText("PLAY", Color.Black, GameFont("Courier"), PlayButtonLeft + TextOffset, PLAY_BUTTON_TOP)
 		}
 

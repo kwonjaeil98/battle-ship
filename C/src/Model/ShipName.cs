@@ -12,9 +12,9 @@ using System.Diagnostics;
 public enum ShipName
 {
 	None = 0,
-	Tug = 1,
-	Submarine = 2,
-	Destroyer = 3,
-	Battleship = 4,
-	AircraftCarrier = 5
+	JollyBoat = 1,
+	Jugger = 2,
+	Sloop = 3,
+	Frigate = 4,
+	ShipOfTheLine = 5
 }

@@ -24,7 +24,12 @@ static class UtilityFunctions
 	public const int CellGap = 2;
 
 	public const int ShipGap = 3;
-	private static readonly Color SMALL_SEA = SwinGame.RGBAColor(6, 60, 94, 255);
+
+    public const int AnimationCells = 7;
+
+    public const int FramesPerCell = 8;
+
+    private static readonly Color SMALL_SEA = SwinGame.RGBAColor(6, 60, 94, 255);
 	private static readonly Color SMALL_SHIP = Color.Gray;
 	private static readonly Color SMALL_MISS = SwinGame.RGBAColor(1, 147, 220, 255);
 
@@ -39,9 +44,7 @@ static class UtilityFunctions
 	private static readonly Color SHIP_OUTLINE_COLOR = Color.White;
 
 	private static readonly Color MESSAGE_COLOR = SwinGame.RGBAColor(2, 167, 252, 255);
-	public const int ANIMATION_CELLS = 7;
-
-	public const int FRAMES_PER_CELL = 8;
+	
 	// <summary>
 	// Determines if the mouse is in a given rectangle.
 	// </summary>
@@ -87,16 +90,16 @@ static class UtilityFunctions
 	// <param name="thePlayer">the player to show the ships of</param>
 	public static void DrawSmallField(ISeaGrid grid, Player thePlayer)
 	{
-		const int SMALL_FieldLeft = 39;
-		const int SMALL_FieldTop = 373;
-		const int SMALL_FieldWidth = 166;
-		const int SMALL_FieldHeight = 166;
-		const int SMALL_FIELD_CellWidth = 13;
-		const int SMALL_FIELD_CellHeight = 13;
-		const int SMALL_FIELD_CellGap = 4;
+		const int SmallFieldLeft = 39;
+		const int SmallFieldTop = 373;
+		const int SmallFieldWidth = 166;
+		const int SmallFieldHeight = 166;
+		const int SmallFieldCellWidth = 13;
+		const int SmallFieldCellHeight = 13;
+		const int SmallFieldCellGap = 4;
 
-		DrawCustomField(grid, thePlayer, true, true, SMALL_FieldLeft, SMALL_FieldTop, SMALL_FieldWidth, SMALL_FieldHeight, SMALL_FIELD_CellWidth, SMALL_FIELD_CellHeight,
-		SMALL_FIELD_CellGap);
+		DrawCustomField(grid, thePlayer, true, true, SmallFieldLeft, SmallFieldTop, SmallFieldWidth, SmallFieldHeight, SmallFieldCellWidth, SmallFieldCellHeight,
+		SmallFieldCellGap);
 	}
 
 	// <summary>
@@ -125,7 +128,7 @@ static class UtilityFunctions
 		for (int row = 0; row <= 9; row++) {
 			rowTop = top + (cellGap + cellHeight) * row;
 
-			for (int col = 0; col <= 9; col++) {
+            for (int col = 0; col <= 9; col++) {
 				colLeft = left + (cellGap + cellWidth) * col;
 
 				Color fillColor = default(Color);
@@ -160,8 +163,21 @@ static class UtilityFunctions
 				}
 
 				if (draw) {
-					SwinGame.FillRectangle(fillColor, colLeft, rowTop, cellWidth, cellHeight);
-					if (!small) {
+                    //SwinGame.FillRectangle(fillColor, colLeft, rowTop, cellWidth, cellHeight);
+                    if (fillColor == LARGE_MISS && !small)
+                    {
+                        SwinGame.DrawBitmap(GameResources.GameImage("MissMark"), colLeft + 3, rowTop + 4);
+                    }
+                    else if (fillColor == LARGE_HIT && !small)
+                    {
+                        SwinGame.DrawBitmap(GameResources.GameImage("HitMark"), colLeft+2, rowTop+2);
+                    }
+                    else
+                    {
+                        SwinGame.FillRectangle(fillColor, colLeft, rowTop, cellWidth, cellHeight);
+                    }
+                    
+                    if (!small) {
 						SwinGame.DrawRectangle(OUTLINE_COLOR, colLeft, rowTop, cellWidth, cellHeight);
 					}
 				}
@@ -253,7 +269,7 @@ static class UtilityFunctions
 
 	public static void AddExplosion(int row, int col)
 	{
-		AddAnimation(row, col, "Splash");
+		AddAnimation(row, col, "Explosion");
 	}
 
 	public static void AddSplash(int row, int col)
@@ -308,7 +324,7 @@ static class UtilityFunctions
 	public static void DrawAnimationSequence()
 	{
 		int i = 0;
-		for (i = 1; i <= ANIMATION_CELLS * FRAMES_PER_CELL; i++) {
+		for (i = 1; i <= AnimationCells * FramesPerCell; i++) {
 			UpdateAnimations();
 			GameController.DrawScreen();
 		}
