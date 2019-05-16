@@ -125,6 +125,7 @@ static class HighScoreController
 		if (_Scores.Count == 0)
 			LoadScores();
 
+		SwinGame.FillRectangle(Color.Black, SCORES_HEADING + 450, SCORES_TOP - 50, 150, 350);
 		SwinGame.DrawText("   High Scores   ", Color.White, GameResources.GameFont("Courier"), ScoresLeft, SCORES_HEADING);
 
 		// For all of the scores
@@ -181,7 +182,7 @@ static class HighScoreController
 			x = ScoresLeft + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ");
 
 			// Creates area for user to enter their name
-			Rectangle rect = SwinGame.CreateRectangle(x, ENTRY_TOP, 50, 50);
+			Rectangle rect = SwinGame.CreateRectangle(x, ENTRY_TOP -80, 50, 50);
 
 			// Reads text within the rectangles area
 			SwinGame.StartReadingText(Color.White, NameWidth, GameResources.GameFont("Courier"), rect);
@@ -192,7 +193,7 @@ static class HighScoreController
 
 				UtilityFunctions.DrawBackground();
 				DrawHighScores();
-				SwinGame.DrawText("Name: ", Color.White, GameResources.GameFont("Courier"), ScoresLeft, ENTRY_TOP);
+				SwinGame.DrawText("Name: ", Color.White, GameResources.GameFont("Courier"), ScoresLeft, ENTRY_TOP - 80);
 				SwinGame.RefreshScreen();
 			}
 
