@@ -173,10 +173,13 @@ public static class GameController
 				PlayHitSequence(result.Row, result.Column, isHuman);
 				Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
 
-				while (Audio.SoundEffectPlaying(GameResources.GameSound("Sink"))) {
-					SwinGame.Delay(10);
-					SwinGame.RefreshScreen();
-				}
+				//sound effect only lasts about 2 seconds
+				SwinGame.RefreshScreen();
+				SwinGame.Delay(2);
+				// while (Audio.SoundEffectPlaying(GameResources.GameSound("Sink"))) {
+				// 	// SwinGame.Delay(1);
+				// 	SwinGame.RefreshScreen();
+				// }
 
 				if (HumanPlayer.IsDestroyed) {
 					Audio.PlaySoundEffect(GameResources.GameSound("Lose"));
